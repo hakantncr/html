@@ -1,0 +1,90 @@
+body {
+    font-family: "PT Serif", serif;
+}
+
+.bg-yellow {
+    background: hsla(173, 89%, 70%, 1);
+
+    background: linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(173, 89%, 70%, 1) 0%, hsla(196, 68%, 38%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6FF7E8", endColorstr="#1F7EA1", GradientType=1 );
+}
+
+
+
+.bg2 {
+    background-color: #eee9e9
+}
+
+
+.border-above-dark {
+    border-bottom: 1px solid rgba(30, 30, 30, 0.25)
+}
+
+.corners {
+    border-radius: 1px;
+    background: cadetblue;
+    padding: 1px;
+    width: 600px;
+    height: 300px;
+}
+
+
+p {
+    font-size: 85%;
+    color: #787878
+}
+
+.p-white {
+    font-size: 85%;
+    color: white;
+}
+
+.satisfaction {
+    background-color: white;
+}
+
+.shadow {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.percent {
+    color: black;
+    font-weight: revert;
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
+
+}
+
+.buttons {
+    background: hsla(206, 91%, 66%, 1);
+
+    background: linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5AB2F7", endColorstr="#12CFF3", GradientType=1 );
+}
+
+.footer {
+    background: hsla(217, 100%, 50%, 1);
+
+    background: linear-gradient(45deg, hsla(217, 100%, 50%, 1) 0%, hsla(214, 57%, 57%, 1) 0%, hsla(186, 100%, 69%, 1) 55%);
+
+    background: -moz-linear-gradient(45deg, hsla(217, 100%, 50%, 1) 0%, hsla(214, 57%, 57%, 1) 0%, hsla(186, 100%, 69%, 1) 55%);
+
+    background: -webkit-linear-gradient(45deg, hsla(217, 100%, 50%, 1) 0%, hsla(214, 57%, 57%, 1) 0%, hsla(186, 100%, 69%, 1) 55%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061ff", endColorstr="#5389D0", GradientType=1 );
+}
