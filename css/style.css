@@ -1,0 +1,135 @@
+body {
+    font-family: "PT Serif", serif;
+}
+
+p {
+    font-size: 100%;
+    color: #828282;
+    font-family: "PT Serif", serif;
+}
+
+.p-white {
+    font-size: 100%;
+    color: #ffffff;
+}
+
+
+.shadow {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
+
+}
+
+.buttons {
+    background: hsla(206, 91%, 66%, 1);
+
+    background: linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5AB2F7", endColorstr="#12CFF3", GradientType=1 );
+}
+
+.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 18rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/masthead/masthead.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+.masthead-font {
+    font-size: 60px;
+    color: #000000;
+    font-family: "PT Serif", serif;
+}
+.masthead-header-font {
+    font-size: 30px;
+    color: #000000;
+    font-style: italic;
+}
+
+.blog-title {
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
+.blog-background {
+    border-top: #000000;
+    border-bottom: #000000;
+    background-color: #f2f2f2;
+}
+
+.blog-text {
+    color: #696969;
+    font-size: 110%;
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
+
+
+.background-border {
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+}
+
+
+.cards-title {
+    font-family: "Abyssinica SIL";
+    color: #000000;
+
+}
+
+.boxes-header-font {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.boxes-font {
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+}
+
+.footer-background {
+    background-color: #000000;
+    margin-top: 55px;
+    text-align: center;
+
+}
+
+.footer-text {
+    text-align: center;
+    font-family: "Abyssinica SIL";
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
