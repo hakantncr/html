@@ -1,17 +1,50 @@
-body {
-    font-family: "PT Serif", serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    font-size: 100%;
-    color: #828282;
+body {
     font-family: "PT Serif", serif;
+    margin: 0;
+}
+
+header {
+    height: 5em;
+    display: table;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.4s ease-in-out;
+}
+header.scrolled {
+    background-color: #fff;
+    opacity: 0.99;
+}
+
+header nav {
+    padding: 1.5em 0 1.5em 5em;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    margin: 1em;
+    transition: color 0.4s ease-in-out;
+}
+header.scrolled nav a {
+    color: black;
 }
 
 .p-white {
     font-size: 100%;
     color: #ffffff;
 }
+p {
+    font-size: 100%;
+    color: #696969;
+    font-family: "PT Serif", serif;
+}
+
 
 
 .shadow {
@@ -26,21 +59,14 @@ p {
 
 }
 
-.buttons {
-    background: hsla(206, 91%, 66%, 1);
-
-    background: linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
-
-    background: -moz-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
-
-    background: -webkit-linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5AB2F7", endColorstr="#12CFF3", GradientType=1 );
+.navbar-background {
+    background-color: #ffffff;
 }
 
+
 .masthead {
-    padding-top: 10.5rem;
-    padding-bottom: 18rem;
+    padding-top: 11.5rem;
+    padding-bottom: 20rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/masthead/masthead.jpg");
@@ -67,9 +93,9 @@ p {
     font-family: "PT Serif", serif;
 }
 .blog-background {
-    border-top: #000000;
-    border-bottom: #000000;
-    background-color: #f2f2f2;
+    border-top: #ffffff;
+    border-bottom: #ffffff;
+    background-color: #000000;
 }
 
 .blog-text {
@@ -81,8 +107,12 @@ p {
 
 
 .background-border {
+    width: 100%;
+    height: 150px;
+    background: #000;
+    position: relative;
+    padding:16px;
     color: #ffffff;
-    background-color: black;
     text-align: center;
 }
 
@@ -95,12 +125,12 @@ p {
 
 .boxes-header-font {
     font-size: 24px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 .boxes-font {
     font-size: 13px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-style: italic;
 }
@@ -118,16 +148,37 @@ p {
     color: #ffffff;
 }
 
+section article img {
+    opacity: 1;
+    transition: all 0.4s;
+    transform: scale(1);
+}
+
+section article img:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
 
 
+nav a {
+    opacity: 1;
+    transition: all 0.4s;
+    transform: scale(1);
+}
 
+nav a:hover {
+    color: #363636;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
 
-
-
-
-
-
-
+.button {
+    padding: 6px 11px 6px 11px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #363636;
+}
 
 
 
